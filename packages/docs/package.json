@@ -6,10 +6,8 @@
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy": "storybook-to-ghpages"
   },
   "dependencies": {
     "@organization-ui/eslint-config": "*",
@@ -26,6 +24,7 @@
     "@eslint/js": "^9.33.0",
     "@storybook/addon-docs": "^9.1.5",
     "@storybook/react-vite": "^9.1.5",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
