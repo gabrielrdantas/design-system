@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "tsc -b && vite build",
-    "build-storybook": "storybook build",
-    "deploy": "storybook-to-ghpages"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@organization-ui/eslint-config": "*",
