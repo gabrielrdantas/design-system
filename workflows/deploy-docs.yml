@@ -22,7 +22,7 @@ jobs:
       - run: npm run build
         env:
           TURBO_TOKEN: ALMYPmWXyhZkgRZvjo8LtWc3
-          TURBO_TEAM: Gabriel's projects.
+          TURBO_TEAM: gabriels-projects-fc2f5cb5
       - name: Deploy storybook
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
