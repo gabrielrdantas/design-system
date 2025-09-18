@@ -1,0 +1,3 @@
+import{j as n}from"./index-BuEtRQHe.js";import{useMDXComponents as i}from"./index-CQNqV7ej.js";import{M as r}from"./blocks-C4vxJkRl.js";import"./iframe-C6OfLmXi.js";import"./index-Cqodv2Ia.js";import"./preload-helper-CrBNHJhJ.js";function e(t){const o={h1:"h1",p:"p",...i(),...t.components};return n.jsxs(n.Fragment,{children:[n.jsx(r,{title:"Home"}),`
+`,n.jsx(o.h1,{id:"organization-ui",children:"Organization UI"}),`
+`,n.jsx(o.p,{children:"Design System do Ignite."})]})}function u(t={}){const{wrapper:o}={...i(),...t.components};return o?n.jsx(o,{...t,children:n.jsx(e,{...t})}):e(t)}export{u as default};
