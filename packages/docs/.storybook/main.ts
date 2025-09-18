@@ -12,6 +12,8 @@ const config: StorybookConfig = {
     "options": {}
   },
   viteFinal: (config, { configType }) => {
+
+    // Sempre que for um subpath, precisamos configurar o config.base que é o nome do projeto.
     if (configType === 'PRODUCTION') {
       config.base = 'design-system'
     }
